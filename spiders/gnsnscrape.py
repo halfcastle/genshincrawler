@@ -1,6 +1,7 @@
 import scrapy
 class gnsnspi(scrapy.Spider):
     name = "gnsnspi"
+    start_urls = ["https://genshin.honeyhunterworld.com/db/char/characters/?lang=EN"]
     def parse(self, response):
         chars = response.css("div.char_sea_cont a")
         for char in [a.attrib["href"] for a in chars]:
