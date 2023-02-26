@@ -14,7 +14,7 @@ The actual scraper is located within the file called gnsncrape. For some reason,
 
 After installing scrapy, open a terminal and type 
 `scrapy crawl fandomspi -o namename.csv`
-change "namename" to whatever you want to name your file with.
+<br>change "namename" to whatever you want to name your file.
 
 There will now be a very ugly csv file inside your repository folder that's gonna look something like this:
 ![ugly.png](/images/ugly.png)
@@ -26,10 +26,10 @@ Now all you have to do is... well, clean up anything that looks ugly. Extra comm
 It won't take you too long as long as you always stay up to date with the new characters.
 
 ## Future Updates
-**better functions**
+**better functions**<br>
 I don't think the str.replace function is working right now (it works if you open a new ipynb project and re-upload the csv, so idk what's going on here)
 
-**fetters lines**
+**fetters lines**<br>
 Formatting them also follows the same logic, but I'm not sure how useful they will be.
 
 ## Misc
