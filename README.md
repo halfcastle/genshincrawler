@@ -7,6 +7,7 @@ It basically makes searching for things easier.
 其他的懂得都懂
 
 ## How to Use
+***Even if you follow all the steps, there's a very high chance you'll encounter bugs because this repository isn't properly cleaned up yet***
 Either clone the repository and open it on your computer, or just... download the entire thing.
 
 The actual scraper is located within the file called gnsncrape. For some reason, automatically appending each individual characte's path to the main link didn't work, so we now have a huge chunk of links there. It works just fiine.
